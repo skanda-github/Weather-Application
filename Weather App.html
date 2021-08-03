@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+    <title>Weather Application</title>
+    <link rel="icon" href="TL.ico">
+    <link rel="stylesheet" href="./Styling.css">
+</head>
+
+
+
+
+<body>
+       
+       <div class="Box-Class">
+               <h3 class="Heading">Weather Information</h3>
+               <div class="City-Search">
+                   <input type="text" class="Search-Location" placeholder="City name" id="City">
+                   <button type="submit" class="City-Search-Button" id="Button" onclick="doSomething();">&#128269;</button>
+               </div>
+               <div class="Weather-Display">
+                <h2 class="City-Country-Display">XXXXX,XX</h2>
+                <h1 class="Temperature-Display">XX &#176;C</div>
+                <div class="Inline">
+                    <img src="" alt="" class="Icon-Weather">
+                    <div class="Weather-Description">XXXXXXXXX</div>
+                </div>
+
+                <div class="PV">
+                    <div class="Pressure">Atmospheric Pressure - XXXXX hPa</div>
+                    <div class="Visibility">Visibility  - XX.XXX XX</div>
+                </div>
+
+                <div class="HW">
+                    <div class="Humidity-Display">Humidity - XX %</div>
+                    <div class="Wind-Display">Wind Speed - XX m/s</div> 
+                </div>
+
+                <div class="SunTime">
+                    <div class="Sunrise">Sunrise - X.XX.XX XX (IST)</div>
+                    <div class="Sunset">Sunset  - X.XX.XX XX (IST)</div>
+                </div>
+                <!-- <h6>(Sunrise and Sunset works on IST)</h4> -->
+
+            </div>
+       </div>
+
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+       <script src="./App Server.js"></script>
+       
+    
+</body>
+
+</html>

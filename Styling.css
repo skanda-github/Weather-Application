@@ -1,0 +1,82 @@
+body{
+    display:flex; 
+    flex-direction:column;
+    margin: 10px auto 0px auto;
+    align-items: center;
+    overflow: hidden;
+    background: Black;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+    background-image: url("./Image3.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 150%;
+}
+
+.Box-Class{
+    background: #F0F8FFd0;
+    padding: 1.4em;
+    border-radius: 2%;
+    width: 100%;
+    max-width: 300px;
+    margin: 2em;
+    color: Black;
+}
+
+button{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin: 0.2em;
+    border-radius: 18px;
+    border: none;
+    outline: none;
+    height: 35.2px;
+    width: 35.2px;
+    background: #000000d0;
+    cursor: pointer;
+}
+
+.Heading{
+    margin: 0;
+    text-align: left;
+    color: Black;
+}
+
+.Search-Location{
+    font-family: sans-serif;
+    border: none;
+    border-radius: 18px;
+    background: #000000d0;
+    outline: none;
+    padding: 0.4em 0.8em;
+    color: Whitesmoke;
+    font-family: inherit;
+    font-size: 85%;
+    width: 70%;
+    margin-top: 1em;
+}
+
+h1.Temperature-Display{
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.Weather-Description{
+    text-transform: capitalize;
+}
+
+.Inline{
+    margin-bottom: 14px;
+}
+
+.SunTime{
+    margin-bottom: 14px;
+}
+
+.PV{
+    margin-bottom: 14px;
+}
+
+.HW{
+    margin-bottom: 14px;
+}
